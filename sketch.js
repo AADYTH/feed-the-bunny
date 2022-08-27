@@ -111,6 +111,8 @@ function draw()
    bubble.visible = false;
     World.remove(engine.world,fruit);
     fruit = null;
+
+    changeAnimation('eating')
    //Code to change the animation of a bunny when a collision with fruit and bunny is detected. 
   }
   
